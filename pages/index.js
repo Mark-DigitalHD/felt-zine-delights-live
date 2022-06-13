@@ -56,7 +56,7 @@ useEffect(() => {
             <Link href="/decisions">
               { userAddress === "" ? (
               <button disabled={true}  className="rounded-3xl font-bold text-xl sm:text-2xl mt-5 py-3 p-3 w-fit h-fit  flex flex-row justify-center justify-items-center border-[4px] border-solid border-[#1a1b0a] text-[#1a1b0a] bg-[#93814f]" >
-                C L O S E D
+                C O N N E C T
               </button>
               ) : (
               <button  disabled={false} className="rounded-3xl font-bold text-xl sm:text-2xl mt-5 py-3 p-3 w-fit h-fit  flex flex-row justify-center justify-items-center border-[4px] border-solid  border-[#1a1b0a] bg-[#1a1b0a] text-[#93814f] hover:text-[#b5572b]" >
