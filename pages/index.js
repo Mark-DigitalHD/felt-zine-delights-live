@@ -25,8 +25,22 @@ useEffect(() => {
   return (
     <div className="text-[#1a1b0a] bg-[url('../public/assets/main-image-edited-sized-down.jpg')] bg-repeat  min-h-screen h-screen">
       <Head>
-        <meta name="description" content="FELT ZINE FELT ZINE FELT ZINE" />
-        <meta name="og:title" content="Garden of Felt Zine Delights" />
+      <title>Gardens of Felt Zine Delights</title>
+      <link rel="icon" href="https://gardens.feltzine.art/assets/favicon.jpg"/>
+
+      <meta property="og:title" content="Gardens of Felt Zine Delights" key="ogtitle" />
+      <meta property="og:description" content="Limited edition 1/1 art collection inspired by The Garden of Earthly Delights with original 3D renderings by Ty Vadovich; AI, and executive production by Mark Sabb; and Web3 development by Max Bochman" key="ogdesc" />
+      <meta property="og:type" content="website" key="ogtype" />
+      <meta property="og:url" content="https://gardens.feltzine.art/" key="ogurl"/>
+      <meta property="og:image" content="https://gardens.feltzine.art/assets/preview.jpg" key="ogimage"/>
+      <meta property="og:site_name" content="https://gardens.feltzine.art/" key="ogsitename" />
+
+      <meta name="twitter:card" content="summary_large_image" key="twcard"/>
+      <meta property="twitter:domain" content="gardens.feltzine.art" key="twdomain" />
+      <meta property="twitter:url" content="https://gardens.feltzine.art/" key="twurl" />
+      <meta name="twitter:title" content="Gardens of Felt Zine Delights" key="twtitle" />
+      <meta name="twitter:description" content="Limited edition 1/1 art collection inspired by The Garden of Earthly Delights with original 3D renderings by Ty Vadovich; AI, and executive production by Mark Sabb; and Web3 development by Max Bochman" key="twdesc" />
+      <meta name="twitter:image" content="https://gardens.feltzine.art/assets/preview.jpg" key="twimage" />
       </Head>    
       <Header />
       <main className="h-full flex flex-col flex-wrap items-center justify-center  ">
