@@ -238,6 +238,14 @@ export default function Gallery() {
                   OPENSEA
                </button>   
             </a>
+            <a
+               style={{ textDecoration: "none" }}
+               href="https://foundation.app/collection/gfzd"
+            >
+               <button className="text-center w-32 p-2 border-4 border-l-0 border-[#202716] bg-[#726e48] hover:bg-[#202716] hover:text-[#726e48] border-solid ">
+                  Foundation
+               </button>   
+            </a>
          </div>
 
          <div className="flex flex-row flex-wrap justify-center">
